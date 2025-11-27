@@ -75,13 +75,18 @@
 				text-shadow: 0px 0px 2px white;
 			}
 			
+			.h5AC {
+				text-align: center;
+				
+			}
+			
 			.headingAC {
 				text-align: center;
 				margin-top: 42.5PX
 			}
 			
 			.infoAC {
-				margin: 2%
+				margin: 11.452px
 			}
 			
 			.floatRightAC {
@@ -95,125 +100,177 @@
 			.imageMargin {
 				border-style: solid;
 				border-color: #000000;
-				margin: 2%;
+				border-radius: 5px;
+				margin: 11.453px;
 				width: 550px;
-				border-size: 2%
-				display: block;
-				height: auto;
+				border-size: 3px;
 			}
 			
 			.bpSpacesAC {
-				margin: 1%;
+				margin: 7.766px
 			}
 			
-			.imageFunFactAC {
-				position: absolute;
-				bottom: 0;
-				left: 100%;
-				right: 0;
-				background-color: #008CBA;
-				overflow: hidden;
-				width: 0;
-				height: 100%;
-				transition: .5s ease;
-			}
+			.formQuizThingAC {
+				background-color: lightblue;
+				border-style: solid;
+				border-radius: 5px;
+				border-color: black;
+				margin-bottom: 10px;
+				}
 			
-			.funFactOverlayAC:hover .imageFunFactAC {
-				width: 100%
-				left: 0
+			.quizMarginAC {
+				margin: 10px;
+			}
 			/* end of nav bar css */
 		</style>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	</head>
 	<body>
 		<nav class="navbar bg-body-tertiary fixed-top">
-				<div class="container-fluid">
-					<div>
-						<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">Menu </button>
+			<div class="container-fluid">
+				<div>
+					<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">Menu </button>
+				</div>
+				<h2 class="one blueAC">Life Under Water</h2>
+				<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">WDD Project</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 					</div>
-					<h2 class="one blueAC">Food Industry</h2>
-					<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-						<div class="offcanvas-header">
-							<h5 class="offcanvas-title" id="offcanvasNavbarLabel">WDD Project</h5>
-							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-						</div>
-						<div class="offcanvas-body">
-							<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-							   </li>
-							  <li class="nav-item">
-									<a class="nav-link" href="index.html">Page 1</a>
-							  </li>
-							  <li class="nav-item">
-									<a class="nav-link active" aria-current="page" href="index2.html">Page 2</a>
-							  </li>
-							  <li class="nav-item">
-									<a class="nav-link" href="index3.html">Page 3</a>
-							  </li>
-							   </li>
-							  <li class="nav-item">
-									<a class="nav-link" href="index.html">Page 4</a>
-							  </li>
-							  <li class="nav-item">
-									<a class="nav-link" href="index2.html">Page 5</a>
-							  </li>
-							  <li class="nav-item">
-									<a class="nav-link" href="index3.html">Page 6</a>
-							  </li>
-							   </li>
-							  <li class="nav-item">
-									<a class="nav-link" href="index.html">Page 7</a>
-							  </li>
-							  <li class="nav-item">
-									<a class="nav-link" href="index2.html">Page 8</a>
-							  </li>
-							  <li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									  Dropdown
-									</a>
-									<ul class="dropdown-menu">
-									  <li><a class="dropdown-item" href="#">Action A</a></li>
-									  <li><a class="dropdown-item" href="#">Action B</a></li>
-									  <li>
-											<hr class="dropdown-divider">
-									  </li>
-									  <li><a class="dropdown-item" href="#">Action C (quirky)</a></li>
-									</ul>
-							  </li>
-							</ul>
-							<form class="d-flex mt-3" role="search">
-							  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-							  <button class="btn btn-outline-success" type="submit">Search</button>
-							</form>
-						</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+						   </li>
+						  <li class="nav-item">
+								<a class="nav-link" href="index.html">Page 1</a>
+						  </li>
+						  <li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index2.html">Page 2</a>
+						  </li>
+						  <li class="nav-item">
+								<a class="nav-link" href="index3.html">Page 3</a>
+						  </li>
+						   </li>
+						  <li class="nav-item">
+								<a class="nav-link" href="index.html">Page 4</a>
+						  </li>
+						  <li class="nav-item">
+								<a class="nav-link" href="index2.html">Page 5</a>
+						  </li>
+						  <li class="nav-item">
+								<a class="nav-link" href="index3.html">Page 6</a>
+						  </li>
+						   </li>
+						  <li class="nav-item">
+								<a class="nav-link" href="index.html">Page 7</a>
+						  </li>
+						  <li class="nav-item">
+								<a class="nav-link" href="index2.html">Page 8</a>
+						  </li>
+						  <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								  Dropdown
+								</a>
+								<ul class="dropdown-menu">
+								  <li><a class="dropdown-item" href="#">Action A</a></li>
+								  <li><a class="dropdown-item" href="#">Action B</a></li>
+								  <li>
+										<hr class="dropdown-divider">
+								  </li>
+								  <li><a class="dropdown-item" href="#">Action C (quirky)</a></li>
+								</ul>
+						  </li>
+						</ul>
+						<form class="d-flex mt-3" role="search">
+						  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+						  <button class="btn btn-outline-success" type="submit">Search</button>
+						</form>
 					</div>
 				</div>
-			</nav> 
+			</div>
+		</nav> 
 		<div class="headingAC">
 			<br>
 			<h2>The Impact of the Food Industry</h2>
 		</div>
-		<div class="funFactOverlayAC">
-			<img src="Images/image1.jpg" class="floatRightAC imageMargin">
-			<div class="imageFunFactAC">
-				<div class="infoAC">Hello.</div>
-			</div>
-		</div>
+		<img src="Images/image1.jpg" class="floatRightAC imageMargin">
 		<div class="infoAC">
-			<h5>INSERT TOPIC A HERE!!!</h5>
+			<h5 class="h5AC">INSERT TOPIC A HERE!!!</h5>
 			<p>I am a fanatic for water. A flock of trees? I don't know... a STAND of trees. That's what you call them! 'Course I make some mistakes at home, and we call those "abstracts". You can continue to blend it until it just goes away. As usual, Bob's gonna do a big tree. Everybody should paint what they see and what they feel. Let's start with an almighty sky here.</p>
 		</div>
 		<div class="infoAC">
-			<h5>INSERT TOPIC B HERE!!!</h5>
+			<h5 class="h5AC">INSERT TOPIC B HERE!!!</h5>
 			<p>I am a fanatic for water. A flock of trees? I don't know... a STAND of trees. That's what you call them! 'Course I make some mistakes at home, and we call those "abstracts". You can continue to blend it until it just goes away. As usual, Bob's gonna do a big tree. Everybody should paint what they see and what they feel. Let's start with an almighty sky here.</p>
 			<ul>
 				<li class="bpSpacesAC">Bullet Point 1 (Skate ipsum dolor sit amet, judo air hanger lipslide face plant crail slide Sacto. Rad hang ten boardslide blunt frontside. Feeble coping nose bump half-flip judo air Shorty''s. Bonite betty egg plant method air quarter pipe slide. Gnar bucket fakie 900 flypaper nosepicker. Hang up quarter pipe nose blunt nose slide snake. Goofy footed Tracker salad grind Skull Skates ollie north no comply. Ollie 540 half-flip acid drop nose slide Steve Alba. Erik Foss nose bump kingpin 1080 lien air trucks. Transfer boardslide body varial soul skate Japan air Jason Dill. Crooked grind smith grind bearings bruised heel camel back. Judo air feeble rails bone air aerial Geoff Rowley. Ledge ollie north disaster slide rail slide.)</li>
-				<li class="bpSpacesAC">Bullet Point 2 Skate ipsum dolor sit amet, judo air hanger lipslide face plant crail slide Sacto. Rad hang ten boardslide blunt frontside. Feeble coping nose bump half-flip judo air Shorty''s. Bonite betty egg plant method air quarter pipe slide. Gnar bucket fakie 900 flypaper nosepicker. Hang up quarter pipe nose blunt nose slide snake. Goofy footed Tracker salad grind Skull Skates ollie north no comply. Ollie 540 half-flip acid drop nose slide Steve Alba. Erik Foss nose bump kingpin 1080 lien air trucks. Transfer boardslide body varial soul skate Japan air Jason Dill. Crooked grind smith grind bearings bruised heel camel back. Judo air feeble rails bone air aerial Geoff Rowley. Ledge ollie north disaster slide rail slide.)</li>
-				<li class="bpSpacesAC">Bullet Point 2 Skate ipsum dolor sit amet, judo air hanger lipslide face plant crail slide Sacto. Rad hang ten boardslide blunt frontside. Feeble coping nose bump half-flip judo air Shorty''s. Bonite betty egg plant method air quarter pipe slide. Gnar bucket fakie 900 flypaper nosepicker. Hang up quarter pipe nose blunt nose slide snake. Goofy footed Tracker salad grind Skull Skates ollie north no comply. Ollie 540 half-flip acid drop nose slide Steve Alba. Erik Foss nose bump kingpin 1080 lien air trucks. Transfer boardslide body varial soul skate Japan air Jason Dill. Crooked grind smith grind bearings bruised heel camel back. Judo air feeble rails bone air aerial Geoff Rowley. Ledge ollie north disaster slide rail slide.)</li>
+				<li class="bpSpacesAC">Bullet Point 2 (Skate ipsum dolor sit amet, judo air hanger lipslide face plant crail slide Sacto. Rad hang ten boardslide blunt frontside. Feeble coping nose bump half-flip judo air Shorty''s. Bonite betty egg plant method air quarter pipe slide. Gnar bucket fakie 900 flypaper nosepicker. Hang up quarter pipe nose blunt nose slide snake. Goofy footed Tracker salad grind Skull Skates ollie north no comply. Ollie 540 half-flip acid drop nose slide Steve Alba. Erik Foss nose bump kingpin 1080 lien air trucks. Transfer boardslide body varial soul skate Japan air Jason Dill. Crooked grind smith grind bearings bruised heel camel back. Judo air feeble rails bone air aerial Geoff Rowley. Ledge ollie north disaster slide rail slide.)</li>
+				<li class="bpSpacesAC">Bullet Point 3 (Skate ipsum dolor sit amet, judo air hanger lipslide face plant crail slide Sacto. Rad hang ten boardslide blunt frontside. Feeble coping nose bump half-flip judo air Shorty''s. Bonite betty egg plant method air quarter pipe slide. Gnar bucket fakie 900 flypaper nosepicker. Hang up quarter pipe nose blunt nose slide snake. Goofy footed Tracker salad grind Skull Skates ollie north no comply. Ollie 540 half-flip acid drop nose slide Steve Alba. Erik Foss nose bump kingpin 1080 lien air trucks. Transfer boardslide body varial soul skate Japan air Jason Dill. Crooked grind smith grind bearings bruised heel camel back. Judo air feeble rails bone air aerial Geoff Rowley. Ledge ollie north disaster slide rail slide.)</li>
 			</ul>
 		</div>
 		<div class="infoAC">
-			<h5>INSERT TOPIC C HERE!!!</h5>
+			<h5 class="h5AC">INSERT TOPIC HERE!!!</h5>
 			<p>I am a fanatic for water. A flock of trees? I don't know... a STAND of trees. That's what you call them! 'Course I make some mistakes at home, and we call those "abstracts". You can continue to blend it until it just goes away. As usual, Bob's gonna do a big tree. Everybody should paint what they see and what they feel. Let's start with an almighty sky here.</p>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class= "col-8">
+						<div class="infoAC">
+			<h5 class="h5AC">INSERT TOPIC HERE!!!</h5>
+			<p>In the last 24 hours we have seen facilities now being created for the greatest and most complex exploration in man's history. We have felt the ground shake and the air shattered by the testing of a Saturn C-1 booster rocket, many times as powerful as the Atlas which launched John Glenn, generating power equivalent to 10,000 automobiles with their accelerators on the floor. We have seen the site where the F-1 rocket engines, each one as powerful as all eight engines of the Saturn combined, will be clustered together to make the advanced Saturn missile, assembled in a new building to be built at Cape Canaveral as tall as a 48 story structure, as wide as a city block, and as long as two lengths of this field.</p>
+			<p>The most significant things we can think about, when we think about Apollo, is that it has opened for us, for us being the World, a challenge of the future. The door is now cracked, but the promise of that future lies in the young people, not just in America, but the young people all over the world. Learning to live and learning to work together. In order to remind all the peoples of the World, in so many countries throughout the world, that this is what we all are striving for in the future, Jack has picked up a very significant rock, typical of what we have here in the valley of Taurus Littrow. It's a rock composed of many fragments, of many sizes, and many shapes, probably from all parts of the Moon, perhaps billions of years old. But a rock of all sizes and shapes, fragments of all sizes and shapes, and even colors that have grown together to become a cohesive rock outlasting the nature of Space, sort of living together in a very coherent, very peaceful manner. When we return this rock or some of the others like it to Houston, we'd like to share a piece of this rock with so many of the countries throughout the world. We hope that this will be a symbol of what our feelings are, what the feelings of the Apollo Program are, and a symbol of mankind that we can live in peace and harmony in the future.</p>
+			<p>“Every element of the program was in trouble and so were we. The simulators were not working, Mission Control was behind in virtually every area, and the flight and test procedures changed daily. Nothing we did had any shelf life. Not one of us stood up and said, ‘Dammit, stop!’ I don’t know what Thompson’s committee will find as the cause, but I know what I find. We are the cause! We were not ready! We did not do our job. We were rolling the dice, hoping that things would come together by launch day, when in our hearts we knew it would take a miracle. We were pushing the schedule and betting that the Cape would slip before we did.</p>
+		</div>
+			</div>
+				<div class= "col-4">
+					<form action="/action_page.php" class="formQuizThingAC ">
+						<h4 class="quizMarginAC">What was the answer to question 1?</h4>
+						<div class="form-check quizMarginAC">
+						  <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
+						  <label class="form-check-label">Option 1</label>
+						</div>
+						<div class="form-check quizMarginAC">
+						  <input class="form-check-input" type="checkbox" id="check2" name="option2" value="something">
+						  <label class="form-check-label">Option 2</label>
+						</div>
+						<div class="form-check quizMarginAC">
+						  <input class="form-check-input" type="checkbox" id="check3" name="option3" value="something">
+						  <label class="form-check-label">Option 3</label>
+						</div>
+						<br>
+							<h4 class="quizMarginAC">What was the answer to question 2?</h4>
+						<div class="form-check quizMarginAC">
+						  <input class="form-check-input" type="checkbox" id="check4" name="option1" value="something">
+						  <label class="form-check-label">Option 1</label>
+						</div>
+						<div class="form-check quizMarginAC">
+						  <input class="form-check-input" type="checkbox" id="check5" name="option2" value="something">
+						  <label class="form-check-label">Option 2</label>
+						</div>
+						<div class="form-check quizMarginAC">
+						  <input class="form-check-input" type="checkbox" id="check6" name="option3" value="something">
+						  <label class="form-check-label">Option 3</label>
+						</div>
+						<br>
+						<h4 class="quizMarginAC">What was the answer to question 3?</h4>
+						<div class="form-check quizMarginAC">
+						  <input class="form-check-input" type="checkbox" id="check7" name="option1" value="something">
+						  <label class="form-check-label">Option 1</label>
+						</div>
+						<div class="form-check quizMarginAC">
+						  <input class="form-check-input" type="checkbox" id="check8" name="option2" value="something">
+						  <label class="form-check-label">Option 2</label>
+						</div>
+						<div class="form-check quizMarginAC">
+						  <input class="form-check-input" type="checkbox" id="check9" name="option3" value="something">
+						  <label class="form-check-label">Option 3</label>
+						</div>
+						<hr>
+						<div class="quizMarginAC">
+							<input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" >
+							<label class="btn btn-primary" for="btn-check">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
