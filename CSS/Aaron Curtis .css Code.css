@@ -1,0 +1,78 @@
+.bgLightGreyTopAC /* this code has borders around the background to give a bit of a more pagnated feel */{
+	background-color: #ebebeb;
+	border-left: 2px solid #bdbdbd;
+	border-right: 2px solid #bdbdbd;
+	border-top: 2px solid #bdbdbd;
+	;
+}
+.bgLightGreyMiddleAC /* this is reepated three times, for the top div, middle div, and bottom div.*/{
+	background-color: #ebebeb;
+	border-left: 2px solid #bdbdbd;
+	border-right: 2px solid #bdbdbd;
+}
+.bgLightGreyBottomAC {
+	background-color: #ebebeb;
+	border-left: 2px solid #bdbdbd;
+	border-right: 2px solid #bdbdbd;
+	border-bottom: 2px solid #bdbdbd;	
+}
+
+.navUnhideAC /* as the heading sometimes hides itself, this is needed to make the heading show up */{
+	padding-top:60px;
+	text-align: center;
+}
+	
+.blueAC {
+	color: #609aeb;
+	text-shadow: 0px 0px 2px white;
+	text-align: center;
+}				
+
+.h5AC {
+	text-align: center;
+}
+
+.headingAC {
+	text-align: center;
+	padding-top: 45px;
+}
+
+.infoAC {
+	margin: 4px;
+	margin-top: 8px;
+}
+
+.floatRightAC /*for images, goes unused*/{
+	float: right;
+}
+
+.floatLeftAC /*for images, goes unused*/{
+	float: left;
+}
+
+.imageMarginAC {
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 5px;
+	margin-left: 24px;
+	width: 320px;
+	border-width: 3px;
+	
+}
+.imageMarginS{
+	margin-left: 33%;
+	margin-right: 33%;
+	width:34%;
+}
+.bpSpacesAC {
+	margin: 5px
+}
+			
+.textAC {
+	text-align: center;
+	
+}
+
+.bgWhiteAC {
+	background-color: white;
+}
